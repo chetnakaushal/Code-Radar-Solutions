@@ -9,7 +9,7 @@ int main() {
     scanf("%s", c);
     printf("Name: %s",a);
     printf("Age: %d",b);
-    printf("hobby: %s",c);
+    printf("Hobby: %s",c);
    
     return 0;
 }
