@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     int a, b;
-    scanf("%d",&a);
-    b=a&1;
-    printf("%d",b)
+    scanf("%d %d",&a, &b);
+    int c=(a>>b)&1;
+    printf("%d",c)
     return 0;
 }
