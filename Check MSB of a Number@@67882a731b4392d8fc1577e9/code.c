@@ -5,9 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int a;
+    int a,b;
     scanf("%d",&a);
-    if(a&1)
+    b=a>>31;
+    if(a&b)
     printf("Set");
     else
     printf("Not Set");
