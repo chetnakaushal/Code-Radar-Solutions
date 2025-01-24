@@ -5,11 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
+    int a,b,c ;
     scanf("%d %d", &a, &b);
-    if(a&b)
-    printf("True");
-    else
-    printf("False");
+   c=a|b;
+    printf("%d", c);
     return 0;
 }
