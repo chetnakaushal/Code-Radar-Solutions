@@ -2,21 +2,15 @@
 int main() {
     char ch;
     scanf("%c",ch);
-    switch(ch)
-    {
-        case 'R':{
-        printf("Stop");
-        break;}
-        case 'G':{
-        printf("Go");
-        break;}
-        case 'Y':{
-        printf("Slow Down");
-        break;}
-        default:{
-        printf("Invalid input");}
-       
-    }
+    if(ch=='R')
+    printf("Stop");
+    else if(ch=='G')
+    printf("Go");
+    else if(ch=='Y')
+    printf("Slow Down");
+    else
+    printf("Invalid input");
+   
 
     return 0;
 }
