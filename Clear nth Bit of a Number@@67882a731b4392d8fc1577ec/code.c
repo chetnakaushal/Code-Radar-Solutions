@@ -8,7 +8,7 @@ int main() {
   int a,n,num;
   scanf("%d",&num);
   scanf("%d",&n);
-a=~(num>>n)&1;
-printf("%d",a);
+num=~(num>>n)&1;
+printf("%d",num);
     return 0;
 }
