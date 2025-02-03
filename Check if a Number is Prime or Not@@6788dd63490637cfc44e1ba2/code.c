@@ -20,9 +20,7 @@ int main() {
                 printf("Not Prime");
                 break;
             }
-            else{
-                break;
-            }
+            
         }
         printf("Prime");
     }
