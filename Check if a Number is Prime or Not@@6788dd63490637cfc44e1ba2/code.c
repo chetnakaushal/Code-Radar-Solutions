@@ -20,8 +20,8 @@ int main() {
                 printf("Not Prime");
                 break;
             }
-            break;
-        }printf("Prime");
+            printf("Prime");
+        }
     }
     return 0;
 }
