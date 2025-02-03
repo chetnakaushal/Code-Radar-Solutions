@@ -23,7 +23,7 @@ int main() {
             else{
                 break;
             }
-        }break;
+        }
         printf("Prime");
     }
     return 0;
