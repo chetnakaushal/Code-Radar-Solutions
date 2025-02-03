@@ -9,7 +9,7 @@ int main() {
   scanf("%d",&num);
   scanf("%d",&n);
 //num=~(num>>n)&1;
-num=num&~(1>>n);
+num=num&~(1<<n);
 printf("%d",num);
     return 0;
 }
