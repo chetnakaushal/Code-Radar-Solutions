@@ -4,10 +4,10 @@ int main() {
     int n, c = 1;
 scanf("%d",%n);
     // Outer loop to print all rows
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i <= n; i++) {
 
         // Inner loop to print number in each row
-        for (int j = 0; j <= i; j++) {
+        for (int j = 1; j <= i-1; j++) {
             printf("%d ", c++);
         }
         printf("\n");
