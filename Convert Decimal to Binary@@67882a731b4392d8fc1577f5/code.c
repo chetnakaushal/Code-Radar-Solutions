@@ -7,6 +7,10 @@ char* welcome() {
 int main() {
     int d,r,m=1,b=0;
     scanf("%d",&d);
+    if(d<0)
+    {
+        return 1;
+    }
     if(d==0)
     {return 0;}
     while(d>0)
