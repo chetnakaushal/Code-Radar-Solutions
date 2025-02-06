@@ -2,7 +2,7 @@
 
 int main() {
     int n, c = 1;
-scanf("%d",%n);
+scanf("%d",&n);
     // Outer loop to print all rows
     for (int i = 1; i <= n; i++) {
 
