@@ -7,7 +7,7 @@ scanf("%d",%n);
     for (int i = 1; i <= n; i++) {
 
         // Inner loop to print number in each row
-        for (int j = 1; j <= i-1; j++) {
+        for (int j = 1; j <= i; j++) {
             printf("%d", c++);
         }
         printf("\n");
