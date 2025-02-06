@@ -2,10 +2,10 @@
 
 
 int main() {
-    int x,i,res;
+    int x,i,res,m;
     scanf("%d %d",&x, &i);
     res=1<<(i-1);
-    x=x^res;
-    printf("%d",x);
+    m=x^res;
+    printf("%d",m);
     return 0;
 }
