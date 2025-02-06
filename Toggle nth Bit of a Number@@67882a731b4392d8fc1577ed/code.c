@@ -5,7 +5,7 @@ int main() {
     int x,i,res;
     scanf("%d %d",&x, &i);
     res=1<<(i-1);
-    res=x^res;
-    printf("%d", res);
+    x=x^res;
+    printf("%d",x);
     return 0;
 }
