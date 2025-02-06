@@ -12,7 +12,7 @@ int main() {
         printf("0");
     }
     if(d==0)
-    {return 0;}
+    {printf("0");}
     while(d>0)
     {
         r=d%2;
