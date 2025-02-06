@@ -9,7 +9,7 @@ int main()
     int i, j, N;
 
     /* Input number of rows from user */
-    printf("Enter number of rows: ");
+ 
     scanf("%d", &N);
 
     /* Iterate through N rows */
@@ -19,7 +19,7 @@ int main()
         for(j=1; j<=N; j++)
         {
             /* Print star for each column */
-            printf("*");
+            printf("* ");
         }
         
         /* Move to the next line/row */
