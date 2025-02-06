@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d",&x, &i);
    // if(i<1||i>32)
     //{return 1;}
-    m=(1<<(i-1));
+    m=1<<i;
 res=x^m;
     printf("%d",res);
     return 0;
