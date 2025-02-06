@@ -6,11 +6,11 @@ char* welcome() {
 
 int main() {
 
-    int x,i=0;
+    int x,i;
     scanf("d",&x);
-    while((x&1)==0)
+    while(!(x&1))
    {
-    x>>1;
+    x>>=1;
     i++;
    }printf("%d",p);
     return 0;
