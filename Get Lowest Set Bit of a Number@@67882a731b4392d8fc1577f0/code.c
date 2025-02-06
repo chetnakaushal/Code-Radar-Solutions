@@ -12,6 +12,7 @@ int main() {
    {
     x>>=1;
     i++;
-   }printf("%d",p);
+   }
+   printf("%d",i);
     return 0;
 }
