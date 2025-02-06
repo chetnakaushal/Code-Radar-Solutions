@@ -11,7 +11,7 @@ int main() {
     {
         for (j = 1; j <= i; j++)
         {
-printf("%c",'A'+1-1);
+printf("%c",'A'+i-1);
         }           
         
         printf("\n");
