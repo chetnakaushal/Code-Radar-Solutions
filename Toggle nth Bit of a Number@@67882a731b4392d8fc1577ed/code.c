@@ -8,6 +8,6 @@ int main() {
     //{return 1;}
     m=(1<<(i-1));
 res=x^m;
-    printf("%d",x);
+    printf("%d",res);
     return 0;
 }
