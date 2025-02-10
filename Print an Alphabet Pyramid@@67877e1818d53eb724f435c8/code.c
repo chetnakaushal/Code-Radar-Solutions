@@ -10,7 +10,7 @@ scanf("%d",&n);
         }
         // Print numbers
         for (int j = 1; j <= i; j++) {
-            printf("%c ", 'A'+j);
+            printf("%c ", 'A'+j-1);
         }
         printf("\n");
     }
