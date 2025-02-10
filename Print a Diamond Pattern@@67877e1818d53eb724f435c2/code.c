@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int n = 5; // Height of half-diamond
-
+    int n; // Height of half-diamond
+scanf("%d",&n);
     // Upper half of diamond
     for (int i = 1; i <= n; i++) {
         // Print spaces
