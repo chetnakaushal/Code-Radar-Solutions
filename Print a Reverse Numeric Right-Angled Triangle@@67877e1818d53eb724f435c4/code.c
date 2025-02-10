@@ -9,7 +9,7 @@ scanf("%d",&n);
        //     printf(" ");
        // }
         // Print stars
-        for (int j = 1; j <= i; j++) {
+        for (int j = 1; j <= n-i; j++) {
             printf("%d ",j);
         }
         printf("\n");
