@@ -1,20 +1,17 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    int d,r,m=1,b=0;
-    scanf("%d",&d);
-    
-    
-    while(d>0)
+    int a,rem=0,bin=0,place=1;
+    scanf("%d",&a);
+    while(a>=0)
     {
-        r=d%2;
-        b+=r*m;
-        d/=2;
-        m*=10;
-    }printf("%d",b);
+        rem=a%2;
+        a=a/2;
+        bin=bin+(rem*place);
+        place=place*10;
+
+    }
+    printf("%d",bin);
+
     return 0;
 }
