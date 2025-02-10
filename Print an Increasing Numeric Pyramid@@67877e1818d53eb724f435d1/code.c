@@ -12,13 +12,10 @@ int main() {
 
         // Print first half (increasing numbers)
         for (int j = 1; j <= i; j++) {
-            printf("%d", j);
+            printf("%d ", j);
         }
 
-        // Print second half (decreasing numbers)
-        for (int j = i - 1; j >= 1; j--) {
-            printf("%d", j);
-        }
+        
 
         printf("\n"); // New line after each row
     }
