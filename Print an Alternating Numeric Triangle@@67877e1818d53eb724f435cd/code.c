@@ -1,14 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int n ; // Number of rows
-scanf("%d",&n);
+    int n;
+    scanf("%d", &n); // Take user input
+
     for (int i = 1; i <= n; i++) {
-        // Print 1s and 0s in alternating order
+        // Alternate starting number for each row
+        int num = i % 2 == 0 ? 0 : 1;
+        
         for (int j = 1; j <= i; j++) {
-            printf("%d ", j % 2); // Alternates between 1 and 0
+            printf("%d ", num);
+            num = 1 - num; // Toggle between 1 and 0
         }
-        printf("\n");
+        printf("\n"); // New line after each row
     }
 
     return 0;
