@@ -16,13 +16,13 @@ int main()
         }
         printf("\n");
     }
-    for (int i = n - 1; i >= 1; i--) {
+    for ( i = n - 1; i >= 1; i--) {
         // Print spaces
-        for (int j = 1; j <= n - i; j++) {
+        for (j = 1; j <= n - i; j++) {
             printf(" ");
         }
         // Print stars
-        for (int j = 1; j <= (2 * i - 1); j++) {
+        for (int k = 1; k <= (2 * i - 1); k++) {
             printf("*");
         }
         printf("\n");
