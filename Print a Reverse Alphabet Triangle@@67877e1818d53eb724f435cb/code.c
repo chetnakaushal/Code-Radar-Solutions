@@ -9,7 +9,7 @@ scanf("%d",&n);
           //  printf(" ");
         //}
         // Print numbers
-        for (int j = 1; j <= 2*n-i; j++) {
+        for (int j = 1; j <=n-i; j++) {
             printf("%c ", 'A'+j-1);
         }
         printf("\n");
