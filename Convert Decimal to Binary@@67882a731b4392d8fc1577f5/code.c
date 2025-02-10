@@ -1,14 +1,18 @@
 #include <stdio.h>
-int main() {
-    int a,rem,bin=0,place=1;
-    scanf("%d",&a);
-    while(a>=0)
-    {
-        rem=a%2;
-        a=a/2;
-        bin=bin+(rem*place);
-        place=place*10;
+
+int main(){
+    int n, i=0, b[40];
+    scanf("%d", &n);
+    if (n == 0) {
+        printf("0");
     }
-    printf("%d",bin);
+    while (n > 0) {
+        b[i] = n % 2; 
+        n = n / 2;
+        i++;
+    }
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", b[j]);
+    }
     return 0;
 }
