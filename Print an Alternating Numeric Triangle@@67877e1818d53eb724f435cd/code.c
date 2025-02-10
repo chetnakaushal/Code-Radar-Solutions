@@ -10,12 +10,8 @@ scanf("%d",&n);
         //}
         // Print numbers
         for (int j = 1; j <=i; j++) {
-            if ((i + j) % 2 == 0)
-                printf("O ");
-            else
-                printf("1 ");
-                }
-
+            printf("%d ", j%2);
+        }
         printf("\n");
     }
 
