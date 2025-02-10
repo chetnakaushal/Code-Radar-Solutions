@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main()
 {
     int i, j, N;
@@ -13,7 +9,7 @@ int main()
     {
         for(j=1; j<=N-i; j++)
         {
-            printf("");
+            printf(" ");
         }
         for(int k=1; k<=i; k++)
         {
