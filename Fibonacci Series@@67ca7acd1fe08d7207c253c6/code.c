@@ -15,8 +15,8 @@ void fibonacciSeries(int n)
    printf("%d",t3);
      }
  else if (i == 1)
-            printf("%d ", t1);
-        else if (i == 2)
             printf("%d ", t2);
+        else if (i == 2)
+            printf("%d ", t1);
 }
 }
