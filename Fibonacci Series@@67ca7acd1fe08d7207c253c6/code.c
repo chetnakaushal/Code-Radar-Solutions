@@ -6,7 +6,7 @@ void fibonacciSeries(int n)
      for (int i = 1; i <= n; i++) 
      {
         if(i>2)
-        {}
+        {
    // int t1=0,t2=1, t3;
     
      t3=t1+t2;
@@ -19,4 +19,4 @@ void fibonacciSeries(int n)
         else if (i == 2)
             printf("%d ", t2);
 }
-
+}
