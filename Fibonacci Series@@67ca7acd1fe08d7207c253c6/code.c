@@ -20,4 +20,3 @@ void fibonacciSeries(int n)
             printf("%d ", t2);
 }
 
-}
